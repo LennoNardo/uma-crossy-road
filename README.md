@@ -44,12 +44,14 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
    cd uma-crossing
 
 2. Install dependencies:
+    ```bash
    npm run dev
 
-3. Run the development server:
+4. Run the development server:
+   ```bash
    npm run dev
    
-4. Play the game:
+5. Play the game:
    Open your browser and navigate to the local host URL provided in your terminal (usually http://localhost:5173).
 
 🕹️ Controls

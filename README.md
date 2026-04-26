@@ -45,13 +45,13 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 2. Install dependencies:
     ```bash
-   npm run dev
+   npm install
 
-4. Run the development server:
+3. Run the development server:
    ```bash
    npm run dev
    
-5. Play the game:
+4. Play the game:
    Open your browser and navigate to the local host URL provided in your terminal (usually http://localhost:5173).
 
 🕹️ Controls

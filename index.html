@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Uma Crossing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="game-container"></div>
+    <div id="ui-layer">
+        <div id="home-screen" class="screen hidden">
+            <h1 class="title-logo">Uma Crossing</h1>
+            <div class="menu-container">
+                <button id="btn-play" class="modern-btn primary">Play</button>
+                <button id="btn-select-char" class="modern-btn">Select Character</button>
+            <div id="char-modal" class="hidden">
+                <button class="char-btn" data-char="mambo">Mambo</button>
+                <button class="char-btn" data-char="teio">Tokai Teio</button>
+                <button class="char-btn" data-char="coming-soon" disabled>Coming Soon</button>
+            </div>
+            </div>
+        </div>
+        <div id="hud" class="screen hidden">
+            <div class="hud-top">
+                <button id="btn-home" class="modern-icon-btn">🏠</button>
+                <div id="score-ui">
+                    <div class="score">Score: <span id="score">0</span></div>
+                    <div id="carrot-counter">Carrots: 0</div>
+                </div>
+            </div>
+            
+            <div id="tutorial-keys" class="tutorial-overlay">
+                <div class="key-row"><div class="key">W</div></div>
+                <div class="key-row"><div class="key">A</div><div class="key">S</div><div class="key">D</div></div>
+                <div class="hint">Move to start</div>
+            </div>
+        </div>
+        <div id="game-over-screen" class="screen hidden">
+            <div class="pixel-card">
+                <h2 class="game-over-text">GAME OVER</h2>
+                <div class="score-container">
+                    <div class="score-box">
+                        <span class="score-label">SCORE</span>
+                        <span id="final-score" class="score-value">0</span>
+                    </div>
+                    <div class="score-box">
+                        <span class="score-label">BEST</span>
+                        <span id="best-score" class="score-value">0</span>
+                    </div>
+                </div>
+                <button id="btn-restart" class="modern-btn primary pulse-btn">PLAY AGAIN</button>
+                <br>
+                <button id="game-over-home-btn" class="modern-btn">HOME</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -62,10 +62,10 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 4. Play the game:
    Open your browser and navigate to the local host URL provided in your terminal (usually http://localhost:5173).
 
-🕹️ Controls
+## 🕹️ Controls
 
-Desktop: Use the Arrow Keys (Up, Down, Left, Right) or W, A, S, D to hop around.
-Mobile: Tap the on-screen D-Pad to move.
+- **Desktop:** Use the **Arrow Keys** (Up, Down, Left, Right) or **W, A, S, D** to hop around.
+- **Mobile:** **Swipe** in the direction you want to move (Up, Down, Left, or Right) to navigate through the obstacles.
 
 📜 Credits & Acknowledgments
 

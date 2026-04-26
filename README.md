@@ -63,13 +63,12 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
    Open your browser and navigate to the local host URL provided in your terminal (usually http://localhost:5173).
 
 🕹️ Controls
-Desktop: Use the Arrow Keys (Up, Down, Left, Right) or W, A, S, D to hop around.
 
+Desktop: Use the Arrow Keys (Up, Down, Left, Right) or W, A, S, D to hop around.
 Mobile: Tap the on-screen D-Pad to move.
 
 📜 Credits & Acknowledgments
+
 Inspired by the original Crossy Road by Hipster Whale.
-
 Developed as an AI pairing experiment using the Antigravity AI Agent.
-
 Font: Press Start 2P via Google Fonts.

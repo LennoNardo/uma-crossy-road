@@ -16,6 +16,14 @@ This project was specifically created to explore the capabilities of the **Antig
 
 Through this project, we explored the AI's ability to handle complex 3D mathematics, lighting, camera manipulation, model rendering (`.glb`), and game loop optimization (`requestAnimationFrame`) outside of its usual comfort zone.
 
+### 🚧 Challenges & The Reality of AI Game Dev
+
+While the end result is functional, the development process highlighted the current realities and limitations of AI-assisted coding:
+
+* **Heavy Prompt Engineering:** Building a 3D game with AI is far from a "one-click" magic trick. It required a *massive* amount of detailed, highly specific, and iterative prompting. Debugging visual glitches, fixing camera angles, and stabilizing the render loop required constant back-and-forth communication with the AI.
+* **Limitations of UI Design AIs:** I initially attempted to use Google Stitch AI to prototype the web-based UI overlays for the game. However, it wasn't very helpful for a Three.js context—often hallucinating 3D landscape images instead of generating functional HTML/CSS wireframes. 
+* **Total Reliance on Antigravity:** Because other tools failed to grasp the context of an HTML overlay sitting on top of a 3D canvas, the heavy lifting for both the complex game logic and the UI fixes ultimately relied almost entirely on the Antigravity AI Agent.
+
 ## 🎮 Gameplay Features
 - **Endless Procedural World:** Infinite generation of roads, rivers, and safe zones.
 - **Voxel Art Style:** Clean, retro 8-bit aesthetic utilizing modern web rendering.

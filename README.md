@@ -40,8 +40,8 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/uma-crossing.git](https://github.com/YOUR_USERNAME/uma-crossing.git)
-   cd uma-crossing
+   git clone https://github.com/LennoNardo/uma-crossy-road.git
+   cd uma-crossy-road
 
 2. Install dependencies:
     ```bash
